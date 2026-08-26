@@ -1,0 +1,17 @@
+
+
+#parag{
+    color: #fa23da;
+    text-decoration-line: line-through;
+    text-decoration-style: dotted;
+    text-decoration-thickness: inherit;
+    text-shadow: 5px 5px 8px;
+    text-transform: uppercase;
+}
+
+
+
+a:hover  { 
+    color:#fa23da;
+    text-shadow: shadow 5px;
+}

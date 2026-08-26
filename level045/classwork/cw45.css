@@ -1,0 +1,13 @@
+body{
+    font-size: 3em;
+    background-color: navy;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius:50px;
+}

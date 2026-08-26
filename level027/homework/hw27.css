@@ -1,0 +1,16 @@
+#div1{
+    background-color:rgb(255, 000, 000);
+    width: auto;height: auto;
+}
+#div2{
+    background-color:rgb(000, 255, 000);
+    width: auto;height: auto;
+}
+#div3{
+    background-color:rgb(000, 000, 255);
+    width: auto;height: auto;
+}
+h1{
+    background-color: #ff0000;
+    width: 100;height: auto;
+}

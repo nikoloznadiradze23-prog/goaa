@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 800px;
+            background-color: blue;
+        }
+        .child{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            border-radius: 50%;
+            transition: transform 3s;
+            animation-iteration-count: infinite;
+        }
+        .child:hover{
+            transition: transform 3s;
+        }
+        @keyframes move {
+            0%{
+                transform: translateX(0);
+                background-color: indigo;
+            }
+            30%{
+                transform: translateX(600px);
+                background-color: red;
+            }
+            60%{
+                transform: translateY(600px);
+                background-color: yellow;
+            }
+            100%{
+                transform: translate(5px , 400px);
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

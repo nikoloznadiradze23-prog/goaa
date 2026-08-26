@@ -1,0 +1,33 @@
+body{
+    font-size: 5em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns:300px,300px 300px;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "header"
+    "aside main aside"
+    "footer";
+
+}
+.item{
+    background-color: rgb(255, 238, 0);
+    border: 2px solid green;
+
+}
+
+.item1{
+    grid-column: span 3;
+}
+.item2{
+    grid-row:5;
+    grid-column: span 3;
+}
+.item3{
+    grid-row: span ;
+}
+.item-5{
+    grid-column: span 3;
+}

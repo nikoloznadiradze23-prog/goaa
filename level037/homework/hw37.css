@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body{
+    background-color: rgb(201, 201, 201);
+    font-family: "Playfair Display", serif;
+    padding: 30;
+}
+.city{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 20px;
+    margin: 40px ;
+}
+.kr{
+    padding: 15px;
+    height: auto;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    box-shadow: 1px 10px 20px black;
+}
+.tb{
+    padding: 15px;
+    height: auto;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    box-shadow: 1px 10px 20px black;
+}
+.ny{    
+    padding: 15px;
+    height: auto;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    box-shadow: 1px 10px 20px black;
+}
+.pr{    
+    padding: 15px;
+    height: auto;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    box-shadow: 1px 10px 20px black;
+}
+.to{      
+    padding: 15px;
+    height: auto;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    box-shadow: 1px 10px 20px black;
+}
+.db{
+    padding: 15px;
+    height: auto;
+    border-color: black;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column ;
+    box-shadow: 1px 10px 20px black;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 13px;
+}

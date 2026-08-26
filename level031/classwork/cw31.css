@@ -1,0 +1,55 @@
+/* button{
+    background-color: red;
+    box-shadow: 5px 5 px 10 px;
+}
+button {
+    background-color: red;
+
+}
+button:hover{
+    background-color:green
+}
+button:active{
+    text-shadow:5px 5 px 5 px;
+}
+r{
+    background-color:red
+}
+r:visited{
+    color:black
+}
+r:link{
+    color:white;
+}
+r:link{
+    box-shadow: 5px 5 px 5 px red;
+}
+
+#11 {
+border: 2px ;
+}
+
+.table th
+.table td {
+border: 1px ;
+text-align: left;
+}
+.table thead th {
+background: white;
+}
+.table tbody tr:nth-child(even) {
+background: white;
+} */
+
+
+ul.hardware {
+    list-style-image: url;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol.software {
+    list-style-image: none;
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}

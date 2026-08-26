@@ -1,0 +1,101 @@
+/* first movement */
+/* body{
+    background-color: skyblue;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: skyblue;
+    position: relative;
+    animation: ball 3s linear infinite;
+
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-835px,350px)
+}
+@keyframes ball{
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(800px);}
+} */
+
+/* second movement */
+
+/* body{
+    background-color: skyblue;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: skyblue;
+    position: relative;
+    animation: ball 3s linear infinite;
+
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-400px,800px)
+}
+@keyframes ball{
+    0% {transform: translateX(0px);}
+    100% {transform: translateY(-800px);}
+} */
+
+/* ball around orbit */
+/* body{
+    background-color: skyblue;
+}
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: skyblue;
+    position: relative;
+
+
+.orb{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 2px dashed gray;
+    display: flex;
+    top: -50%;
+    left: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    display: flex;
+    top: 50%;
+    right: -15px;
+    transform: translate(-400px,800px);
+    animation: ball 3s linear infinite;
+}
+@keyframes ball{
+    from {
+        transform: translate(50px,-50px);
+    }
+    to {
+        transform: translate(-50px,50px);
+    }
+} */

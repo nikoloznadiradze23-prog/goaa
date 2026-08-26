@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            border-top: 5px solid red;
+            justify-content: center;
+            align-items: center;
+            transition-property: all ease-out;
+            transition-duration: 1.5s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        .container:hover{
+            transform-origin: scale(20%) rotate(-60deg) translate(100px 150px);
+            background-color: white;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+</body>
+</html>

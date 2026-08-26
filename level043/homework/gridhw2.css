@@ -1,0 +1,91 @@
+body{
+    font-size: 5em;
+    background-color: grey;
+}
+
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 150px 150px 150px 150px;
+    grid-template-areas: 
+    "one one three"
+    "one one four"
+    "two two two"
+    "five six seven eight nine";
+    padding: 20px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.one{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: one;
+    border: 2px solid gray;
+}
+.two{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: two;
+    border: 2px solid gray;
+}
+.three{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: three;
+    border: 2px solid gray;
+}
+.four{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: four;
+    border: 2px solid gray;
+}
+.five{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: five;
+    border: 2px solid gray;
+}
+.six{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: six;
+    border: 2px solid gray;
+}
+.seven{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: seven;
+    border: 2px solid gray;
+}
+.eight{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: eight;
+    border: 2px solid gray;
+}
+.nine{
+    background-color: rgb(255, 103, 255);
+    text-align: center;
+    padding: 5px;
+    grid-area: nine;
+    border: 2px solid gray;
+}
+.one   { grid-area: one; }
+.two   { grid-area: two; }
+.three { grid-area: three; }
+.four  { grid-area: four; }
+.five  { grid-area: five; }
+.six   { grid-area: six; }
+.seven { grid-area: seven; }
+.eight { grid-area: eight; }
+.nine  { grid-area: nine; }
